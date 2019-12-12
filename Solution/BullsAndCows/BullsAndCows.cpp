@@ -13,8 +13,8 @@ int main()
 	
 	PrintIntro();
 	
-	GetGuessAndPrint();
-	GetGuessAndPrint();
+	for (int count = 1; count <= 5; count++)
+		GetGuessAndPrint();
 
 	cout << endl;
 	return 0;
