@@ -12,17 +12,21 @@ int main()
 {
 	
 	PrintIntro();
-	
-	for (int count = 1; count <= 5; count++)
+	// loop for the number of turns asking for guesses 
+	constexpr int NUMBER_OF_TURNS = 5;
+	for (int count = 1; count <= NUMBER_OF_TURNS; count++)
+		
+	{
 		GetGuessAndPrint();
-
-	cout << endl;
+		cout << endl;
+	}
 	return 0;
 }
 
 
 
-string GetGuessAndPrint() {
+string GetGuessAndPrint() 
+{
 	// get a guess from the player 
 	cout << "Enter your guess: ";
 	string Guess = "";
