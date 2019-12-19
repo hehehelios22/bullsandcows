@@ -36,7 +36,7 @@ int main()
 
 void PrintIntro()
 {
-	std::cout << "Welcome to Bulls and Cows, a fun word game for your whole family! (=ﾟωﾟ)ﾉ \n";
+	std::cout << "Welcome to Bulls and Cows, a fun word game for your whole family! :) \n";
 	std::cout << std::endl;
 	std::cout << "          }   {         ___ " << std::endl;
 	std::cout << "          (o o)        (o o) " << std::endl;
@@ -116,10 +116,10 @@ void PrintGameSummary()
 {
 	if (BCGame.IsGameWon())
 	{
-		std::cout << "WELL DONE - YOU WIN! ٩(●ᴗ●)۶ \n";
+		std::cout << "WELL DONE - YOU WIN! :D \n";
 	}
 	else
 	{
-		std::cout << "Better luck next time! （◞‸◟）(ó﹏ò｡) \n";
+		std::cout << "Uh, oh! Better luck next time! :( \n";
 	}
 }
