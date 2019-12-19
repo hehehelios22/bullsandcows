@@ -36,12 +36,12 @@ int main()
 
 void PrintIntro()
 {
-	std::cout << "Welcome to Bulls and Cows, a fun word game for your whole family! : D \n";
+	std::cout << "Welcome to Bulls and Cows, a fun word game for your whole family! (=ﾟωﾟ)ﾉ \n";
 	std::cout << std::endl;
 	std::cout << "          }   {         ___ " << std::endl;
 	std::cout << "          (o o)        (o o) " << std::endl;
 	std::cout << "   /-------\\ /          \\ /-------\\ " << std::endl;
-	std::cout << "  / | BULL |O            O| COW  | \\ " << std::endl;
+	std::cout << "  / | BYKU |O            O| KROWA  | \\ " << std::endl;
 	std::cout << " *  |-,--- |              |------|  * " << std::endl;
 	std::cout << "    ^      ^              ^      ^ " << std::endl;
 	std::cout << "Can you guess the " << BCGame.GetHiddenWordLength();
@@ -116,10 +116,10 @@ void PrintGameSummary()
 {
 	if (BCGame.IsGameWon())
 	{
-		std::cout << "WELL DONE - YOU WIN!\n";
+		std::cout << "WELL DONE - YOU WIN! ٩(●ᴗ●)۶ \n";
 	}
 	else
 	{
-		std::cout << "Better luck next time!\n";
+		std::cout << "Better luck next time! （◞‸◟）(ó﹏ò｡) \n";
 	}
 }
